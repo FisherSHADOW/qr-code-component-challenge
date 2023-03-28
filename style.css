@@ -4,33 +4,34 @@
 }
     @font-face {
         font-family: pfont;
-        src: url(/src/Fonts/Outfit-Thin.ttf);
+        src: url(./src/Fonts/Outfit-Thin.ttf);
 }
     body{
     background-color: #d5e1ef;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 .main-box{
     width: 300px;
     height: 450px;
-    color: #f3f3f3;
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
-    margin: auto;
-    margin-top: 300px;
+    align-items: center;
+    margin-top: 200px;
 }  
-
 .qr{
     border-radius: 10px;
     width: 250px;
     height: 100%;
-    margin-left: 25px;
-    margin-top: 20px;
+    margin: 25px 25px;
 }
-.title{
-    color: #4b4b4b;
+h1{
+    color: #141414;
     font-size: 20px;
     text-align: center;
     font-family: h1font;
+    margin-top: -10px;
 }
 .text{
     font-size: 14px;
